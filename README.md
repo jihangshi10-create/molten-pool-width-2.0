@@ -79,7 +79,8 @@ At the moment, the image path is hard-coded in the source file, so you must chan
 
 ```cpp
 cv::glob("D:/Project2/1/*.tiff", fileNames, false);
-cv::glob("D:/Project2/1/*.tif", tifNames, false);
+cv::glob("D:/Project2/1/*.tif", tifNames, false)
+
 ## Output
 
 For each processed frame, the program can generate:
