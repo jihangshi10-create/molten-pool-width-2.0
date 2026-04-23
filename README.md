@@ -77,9 +77,11 @@ The program processes grayscale `.tif` / `.tiff` images from a folder.
 
 At the moment, the image path is hard-coded in the source file, so you must change it manually before running:
 
-```cpp
+
 cv::glob("D:/Project2/1/*.tiff", fileNames, false);
-cv::glob("D:/Project2/1/*.tif", tifNames, false)
+cv::glob("D:/Project2/1/*.tif", tifNames, false);
+
+---
 
 ## Output
 
